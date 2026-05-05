@@ -1,0 +1,138 @@
+body{
+    background-image: url(imagen/fondo.jpg);
+    width: 50%;
+    margin: auto;
+}
+.raya{border-top: 3px solid black;}
+.logo img{
+    display: flex;
+    border-radius: 50%;
+    width: 75%;
+}
+.cabecera{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    background-color: whitesmoke;
+    
+    display: block;
+    color: #00AEEF;
+    text-shadow: 3px 5px 5px black;
+    
+}
+.autora{
+    display: flex;
+    justify-content: end;
+}
+.autor {
+    text-align: right;
+    background-color: white;
+    display: block;
+}
+h3{
+    text-decoration: underline;
+}
+.definiciones{
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin: 7px;
+    
+}
+.html{
+    margin: 10px;
+}
+.html h4{
+    background-color: orangered;
+}
+.css{
+    margin: 10px;
+}
+.css h4{
+    background-color:dodgerblue;
+}
+.javascript{
+margin: 10px;
+}
+.javascript h4{
+    background-color:limegreen;
+}
+.definiciones img{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.definiciones div{
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+.definiciones p{
+    margin: 7px;
+}
+.analogia{
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+.analogia div{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 4px;
+    background-color: whitesmoke;
+}
+.analogia i{
+    color: white;
+
+}
+.analogia p{
+    text-align: left;
+}
+.html2 div{
+    background-color: orangered;
+    border: none;
+}
+.css2 div{
+    background-color: dodgerblue;
+    border: none;
+}
+.javascript2 div{
+background-color: limegreen;
+border: none;
+}
+.casa img{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    box-shadow: 25px 25px 25px gray;
+    
+}
+.casa{
+    margin: 50px;
+}
+footer{
+    
+    padding: 5px;
+    padding-bottom: 20px;
+}
+footer h2{
+    text-decoration: underline;
+}
+footer p{
+    
+    margin: auto;
+    background-color: whitesmoke;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  black;
+}
